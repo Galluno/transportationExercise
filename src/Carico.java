@@ -7,6 +7,15 @@ public class Carico {
 
     private String tipoCarico;
     private int pesoCarico;
+    private String ciaoGallu;
+    
+    public String getSaluto(){
+        if(ciaoGallu.equal("ciao")){
+            return "sueg";
+        }else{
+            return "bello POO";
+        }
+    }
 
     public int getPesoCarico() {
         return pesoCarico;
